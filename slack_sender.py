@@ -46,7 +46,7 @@ def build_slack_block(investments: List[Dict[str, str]]) -> List[Dict]:
                     "text": (
                         f":deal-with-it: *{inv['name']}*\n"
                         f"> {inv['domain']}\n"
-                        f":돈가방: {inv['amount']} | :take_my_money: {inv['stage']}\n"
+                        f":moneybag: {inv['amount']} | :take_my_money: {inv['stage']}\n"
                         f"\ud83c\udfe2 {inv['houses']}"
                     )
                 }
